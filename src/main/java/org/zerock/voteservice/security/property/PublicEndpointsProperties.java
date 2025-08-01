@@ -44,7 +44,12 @@ public class PublicEndpointsProperties {
                 this.getSpringdocDocumentEndpoint() + "/**",
                 this.getRegisterEndpoint() + "/**",
                 this.getLoginEndpoint() + "/**",
-                this.getBlockchainNodeUnicastNotificationEndpoint() + "/**"
+                this.getBlockchainNodeUnicastNotificationEndpoint() + "/**",
+                "/swagger-ui/**",
+                "/swagger-ui.html",
+                "/v3/api-docs/**",
+                "/webjars/**"
+            
         );
     }
 
