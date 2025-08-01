@@ -45,10 +45,11 @@ public class PublicEndpointsProperties {
                 this.getRegisterEndpoint() + "/**",
                 this.getLoginEndpoint() + "/**",
                 this.getBlockchainNodeUnicastNotificationEndpoint() + "/**",
-                "/swagger-ui/**",
-                "/swagger-ui.html",
                 "/v3/api-docs/**",
-                "/webjars/**"
+                "/swagger-ui.html",
+                "/swagger-ui/**",
+                "/webjars/**",
+                "/favicon.ico"
             
         );
     }
